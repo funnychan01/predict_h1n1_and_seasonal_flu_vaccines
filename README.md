@@ -2,9 +2,11 @@
 
 ## Overview
 
-A brief description of the project, the problem it solves, and the key findings.
+This is a practice competition hosted at [DrivenData](https://www.drivendata.org/competitions/66/flu-shot-learning/). It aims at predicting whether people got H1N1 and seasonal flu vaccines using information they shared about their backgrounds, opinions, and health behaviors. This is a multilabel problem as two target variables, 1. whether respondent received H1N1 flu vaccine, and 2. whether respondent received seasonal flu vaccine, will be predicted.
 
-Predict whether people got H1N1 and seasonal flu vaccines using information they shared about their backgrounds, opinions, and health behaviors.
+## Implication
+
+Helping the government to target and encourage citizens whom are less likely to get the vaccines in order to increase vaccination, so as to provide immunization for more individuals, and enough immunization in a community can further reduce the spread of diseases through "herd immunity."
 
 ## Author
 
@@ -13,21 +15,31 @@ Jackie Chan (jackiecareer89@gmail.com)
 
 ## Data
 
-*   Description of the data source
-*   How the data was acquired
-*   Any data cleaning or preprocessing steps
+*   Data is provided courtesy of the United States [National Center for Health Statistics](https://www.cdc.gov/nchs/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnchs%2Findex.htm)
+*   Data cleaning
+    *
+    *  
+*   Preprocessing steps
+    * 
+    * 
 
 ## Methods
 
 *   Description of the methods used (e.g., machine learning algorithms, statistical techniques)
+    * 
 *   Explanation of the feature engineering process
+    * 
 *   Model evaluation metrics
+    * ROC AUC
 
 ## Results
 
 *   Summary of the key findings
+    * 
 *   Visualizations of the results
+    * 
 *   Discussion of the limitations of the study
+    * 
 
 ## Usage
 
@@ -44,7 +56,7 @@ Instructions on how to set up the project, run the code, and reproduce the resul
 1.  Clone the repository:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/funnychan01/predict_h1n1_and_seasonal_flu_vaccines
     ```
 
 2.  Create a virtual environment:
@@ -64,10 +76,3 @@ Instructions on how to set up the project, run the code, and reproduce the resul
 
 1.  Run the notebooks in the `notebooks/` directory.
 2.  Run the scripts in the `src/` directory.
-
-
-## License
-
-
-No license file included.
-
