@@ -16,12 +16,14 @@ Jackie Chan (jackiecareer89@gmail.com)
 ## Data
 
 *   Data is provided courtesy of the United States [National Center for Health Statistics](https://www.cdc.gov/nchs/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnchs%2Findex.htm)
-*   Data cleaning
-    *
-    *  
-*   Preprocessing steps
-    * 
-    * 
+*   Data cleaning and preprocessing
+    * Features with ordinal data will be scaled by normalization because there are several ranges, such as 0-3, 0-2, 1-5, etc.. After scaling, I will assume the greater the number, the more likely the respondent will take the vaccine.
+    *  For most numerical features, each feature only contains <3.6% missing values. While the second most missing values are in 'doctor_recc_h1n1' and 'doctor_recc_seasonal' columns, which are 8% respectively. Lastly, 'health_insurance' has the most of missing values, containing 46%.
+        * Except 'health_insurance', the missing values will be imputed with mode
+        * For 'health_insurance', the missing values will be treated as a new category
+    * For categorical features, 7 out of 12 columns contains missing values. Most of them contains less than 8%. For 'income_poverty', 'employment_industry' and 'employment_occupation' columns, missing values will be treated as new group because they contain 17%, 50% and 50% missing values respectively
+        * One-hot-encoding will be applied since those categorical features are nominal data
+
 
 ## Methods
 
