@@ -30,3 +30,4 @@ data/
 # Other files
 *.git
 Notebooks/.ipynb*
+*/notebooks/.ipynb_checkpoints/*
